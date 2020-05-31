@@ -1,0 +1,102 @@
+
+#sketchpad {
+    border: 1px solid #eee;
+    cursor: none;
+}
+
+#overlay {
+    border: 1px solid #eee;
+    cursor: crosshair;
+    pointer-events: none;
+}
+
+#sizeSlider {
+  margin-top: 22px;
+  width: 100%;
+}
+
+#previewSvg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+}
+
+.outline{
+  border: 1px solid #eee;
+}
+
+.header{
+  margin-top: 5%;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.vertical-center {
+  -ms-transform: translateY(25%);
+  transform: translateY(25%);
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#controls {
+  margin-top: 5%;
+  padding: 0 10px 0 10px;
+  background-color: #ffffff;
+  border: 1px solid #eee;
+}
+
+body{
+  background-image: url("../../img/dot-grid.png");
+  background-repeat: repeat;
+}
+
+.middle {
+  margin-top:12px;
+}
+
+.button {
+  text-align: center;
+  /* margin: auto; */
+  padding: 0px;
+  font-size: 16px;
+}
+
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    display: none;
+    z-index: 100;
+}
+
+.pcr-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media (min-width: 550px) {
+    section:first-child {
+        margin-top: 8rem;
+    }
+}
+
+input {
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
