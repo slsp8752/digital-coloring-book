@@ -44,3 +44,5 @@ This project wouldn't be possible without the following resources.
 [skeleton.js](http://getskeleton.com/)
 
 [Dot Grid Pattern from Darius Garza](https://www.toptal.com/designers/subtlepatterns/dot-grid-pattern/)
+
+[Tim Holman's Github Corners](http://tholman.com/github-corners/)
